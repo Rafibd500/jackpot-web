@@ -1,0 +1,949 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* all responsive common css start  */
+    .common-head {
+        text-align: center;
+    }
+    .common-btn {
+        transform: scale(.9);
+        -webkit-transform: scale(.9);
+        -moz-transform: scale(.9);
+        -ms-transform: scale(.9);
+        -o-transform: scale(.9);
+    }
+    .common-head h3 {
+        font-size: 40px;
+    }
+
+    .common-head2 {
+        text-align: center;
+    }
+
+    /* all responsive common css end  */
+    /* header part start  */
+    .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .navbar-toggler i {
+        font-size: 35px;
+        color: #ffffff;
+        margin: 50px 15px 0px 0px;
+    }
+
+    .navbar button {
+        outline: none;
+        border: none;
+    }
+
+    .navbar-collapse .nav-link {
+        display: inline-block;
+        margin: 10px 0px;
+    }
+
+    .navbar-collapse ul {
+        text-align: center;
+        background: #000;
+    }
+
+    .navbar-collapse {
+        background: #000;
+        padding-bottom: 15px;
+
+    }
+
+    #navbarSupportedContent {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .common-btn.menu-btn {
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        max-width: 170px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    /* header part end  */
+     /* banner part start  */
+     #banner {
+         padding-top: 170px;
+         padding-bottom: 415px;
+     }
+
+     .banner-text h1 {
+         font-size: 210px;
+     }
+
+     .banner-text {
+         text-align: center;
+     }
+
+     .banner-img {
+         top: 0px;
+         margin: 0 auto;
+         text-align: center;
+         opacity: 0.6;
+     }
+
+     .banner-btn a {
+         margin-top: 25px;
+         margin-right: 0px;
+     }
+
+     /* banner part end  */
+     /* extra part start  */
+     .extra-item-part {
+         position: absolute;
+         top: 630px;
+         left: 50%;
+         transform: translateX(-50%);
+     }
+
+     .extra-item-part .extra-item {
+         margin-right: -15px;
+     }
+
+     /* extra part end  */
+
+     /* games part start  */
+     #games {
+         padding-top: 380px;
+     }
+
+     .games-item-overlay h3 {
+         padding-bottom: 35px;
+         margin-top: 35%;
+     }
+
+     .games-item .common-btn a {
+         margin-right: 0px;
+     }
+
+     /* games part end */
+     /* spin part start  */
+     .spin-img img {
+         width: 75% !important;
+     }
+
+     .spin-img {
+         text-align: center;
+     }
+
+     .spin-text {
+         text-align: center;
+     }
+
+     .spin-text p {
+         font-size: 15px;
+         line-height: 24px;
+         padding: 15px 10px;
+     }
+
+     /* spin part end  */
+
+     /* price part start  */
+
+     .price-item {
+         transform: scale(.8, .9);
+     }
+
+     .price-item:hover {
+         transform: scale(.85, .95);
+         -webkit-transform: scale(.85, .95);
+         -moz-transform: scale(.85, .95);
+         -ms-transform: scale(.85, .95);
+         -o-transform: scale(.85, .95);
+     }
+
+     .price-item-part {
+         padding-top: 25px;
+     }
+
+     #price {
+         padding-bottom: 30px;
+     }
+
+     /* price part end  */
+     /* faq part start  */
+     .faq-part .card h5 .btn-link {
+         font-size: 15px;
+     }
+
+     .faq-part .card .card-body {
+         font-size: 15px;
+     }
+
+     /* faq part end  */
+
+     /* tour part start  */
+     .tour-part {
+         padding-top: 30px;
+     }
+
+     .countdown-head {
+         text-align: center;
+     }
+
+     .countdown-item-part {
+         justify-content: space-evenly;
+         padding-top: 20px;
+     }
+
+     .sub-head {
+         margin: 20px 0px;
+     }
+
+     .payment-item {
+         margin-right: 15px;
+     }
+
+     /* tour part end  */
+     /* footer part start  */
+     .footer-about {
+         text-align: center;
+     }
+
+     .footer-info,
+     .footer-link {
+         padding-top: 20px;
+     }
+
+     .link-list {
+         justify-content: space-around;
+     }
+
+     .info-item {
+         justify-content: flex-start;
+         padding-bottom: 0px;
+     }
+
+     /* footer part end  */
+
+     /* about page start  */
+     #about {
+         padding-top: 170px;
+         background: #150035;
+         padding-bottom: 420px;
+     }
+
+     #about .extra-item-part {
+         top: 320px;
+     }
+
+     .about-content {
+         padding-top: 420px !important;
+     }
+
+     .about-btn {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-top: 20px;
+     }
+
+     .payment-item-part {
+         display: flex;
+         justify-content: center;
+     }
+
+
+     /* about page end */
+     /* games page start  */
+     #games-main #games {
+         padding-top: 460px !important;
+     }
+
+     /* games page end */
+     /* .price page start  */
+     #price-main .price-item {
+         margin-bottom: 35px;
+     }
+
+     #price-main .price-item {
+         transform: scale(.8, .9);
+     }
+
+     #price-main .price-item:hover {
+         transform: scale(.85, .95);
+         -webkit-transform: scale(.85, .95);
+         -moz-transform: scale(.85, .95);
+         -ms-transform: scale(.85, .95);
+         -o-transform: scale(.85, .95);
+     }
+
+     #price-main .price-item-part {
+         padding-top: 300px;
+     }
+
+     /* .price page end */
+
+
+
+     /* sign up page start  */
+     #signup {
+         background: #0A001B;
+         padding-top: 390px;
+     }
+
+     .signup-head p {
+         display: inline-block;
+     }
+
+     .signup-head p::after {
+         left: 50%;
+         transform: translateX(-50%);
+         -webkit-transform: translateX(-50%);
+         -moz-transform: translateX(-50%);
+         -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+     }
+
+     .login-register {
+         flex-direction: column;
+     }
+
+     .login-register .login {
+         margin-bottom: 15px;
+     }
+
+     /* sign up page end  */
+
+
+     /* contact page start  */
+     .contact-item {
+         margin: 15px 0px;
+     }
+     #contact {
+         padding-top: 410px !important;
+     }
+     /* contact page end  */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* all responsive common css start  */
+    .common-head {
+        text-align: center;
+    }
+
+    .common-head h3 {
+        font-size: 35px;
+    }
+
+    .common-btn {
+        transform: scale(.9);
+        -webkit-transform: scale(.9);
+        -moz-transform: scale(.9);
+        -ms-transform: scale(.9);
+        -o-transform: scale(.9);
+    }
+
+    .common-head2 {
+        text-align: center;
+    }
+
+    /* all responsive common css end  */
+    /* header part start  */
+    .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .navbar-toggler i {
+        font-size: 35px;
+        color: #ffffff;
+        margin: 50px 15px 0px 7px;
+    }
+
+    .navbar button {
+        outline: none;
+        border: none;
+    }
+
+    .navbar-collapse .nav-link {
+        display: inline-block;
+        margin: 10px 0px;
+    }
+
+    .navbar-collapse ul {
+        text-align: center;
+        background: #000;
+    }
+
+    .navbar-collapse {
+        background: #000;
+        padding-bottom: 15px;
+
+    }
+
+    #navbarSupportedContent {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .common-btn.menu-btn {
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        max-width: 170px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    /* header part end  */
+
+    /* banner part start  */
+    #banner {
+        padding-top: 170px;
+        padding-bottom: 415px;
+    }
+
+    .banner-text h1 {
+        font-size: 210px;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .banner-img {
+        top: 0px;
+        margin: 0 auto;
+        text-align: center;
+        opacity: 0.6;
+    }
+
+    .banner-btn a {
+        margin-top: 25px;
+        margin-right: 0px;
+    }
+
+    /* banner part end  */
+    /* extra part start  */
+    .extra-item-part {
+        position: absolute;
+        top: 630px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .extra-item-part .extra-item {
+        margin-right: -15px;
+    }
+
+    /* extra part end  */
+
+    /* games part start  */
+    #games {
+        padding-top: 380px;
+    }
+
+    .games-item-overlay h3 {
+        padding-bottom: 35px;
+        margin-top: 35%;
+    }
+
+    .games-item .common-btn a {
+        margin-right: 0px;
+    }
+
+    /* games part end */
+    /* spin part start  */
+    .spin-img img {
+        width: 75% !important;
+    }
+
+    .spin-img {
+        text-align: center;
+    }
+
+    .spin-text {
+        text-align: center;
+    }
+
+    .spin-text p {
+        font-size: 15px;
+        line-height: 24px;
+        padding: 15px 10px;
+    }
+
+    /* spin part end  */
+
+    /* price part start  */
+
+    .price-item {
+        transform: scale(.8, .9);
+    }
+
+    .price-item:hover {
+        transform: scale(.85, .95);
+        -webkit-transform: scale(.85, .95);
+        -moz-transform: scale(.85, .95);
+        -ms-transform: scale(.85, .95);
+        -o-transform: scale(.85, .95);
+    }
+
+    .price-item-part {
+        padding-top: 25px;
+    }
+
+    #price {
+        padding-bottom: 30px;
+    }
+
+    /* price part end  */
+    /* faq part start  */
+    .faq-part .card h5 .btn-link {
+        font-size: 15px;
+    }
+
+    .faq-part .card .card-body {
+        font-size: 15px;
+    }
+
+    /* faq part end  */
+
+    /* tour part start  */
+    .tour-part {
+        padding-top: 30px;
+    }
+
+    .countdown-head {
+        text-align: center;
+    }
+
+    .countdown-item-part {
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+
+    .sub-head {
+        margin: 20px 0px;
+    }
+
+    .payment-item {
+        margin-right: 15px;
+    }
+
+    /* tour part end  */
+    /* footer part start  */
+    .footer-about {
+        text-align: center;
+    }
+
+    .footer-info,
+    .footer-link {
+        padding-top: 20px;
+    }
+
+    .link-list {
+        justify-content: space-around;
+    }
+
+    .info-item {
+        justify-content: flex-start;
+        padding-bottom: 0px;
+    }
+
+    /* footer part end  */
+
+    /* about page start  */
+    #about {
+        padding-top: 170px;
+        background: #150035;
+        padding-bottom: 420px;
+    }
+
+    #about .extra-item-part {
+        top: 320px;
+    }
+
+    .about-content {
+        padding-top: 420px !important;
+    }
+
+    .about-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .payment-item-part {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* about page end */
+    /* games page start  */
+    #games-main #games {
+        padding-top: 460px !important;
+    }
+
+    /* games page end */
+    /* .price page start  */
+    #price-main .price-item {
+        margin-bottom: 35px;
+    }
+
+    #price-main .price-item {
+        transform: scale(.8, .9);
+    }
+
+    #price-main .price-item:hover {
+        transform: scale(.85, .95);
+        -webkit-transform: scale(.85, .95);
+        -moz-transform: scale(.85, .95);
+        -ms-transform: scale(.85, .95);
+        -o-transform: scale(.85, .95);
+    }
+
+    #price-main .price-item-part {
+        padding-top: 300px;
+    }
+
+    /* .price page end */
+
+
+
+    /* sign up page start  */
+    #signup {
+        background: #0A001B;
+        padding-top: 390px;
+    }
+
+    .signup-head p {
+        display: inline-block;
+    }
+
+    .signup-head p::after {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .login-register {
+        flex-direction: column;
+    }
+
+    .login-register .login {
+        margin-bottom: 15px;
+    }
+
+    /* sign up page end  */
+
+
+    /* contact page start  */
+    #contact{
+        padding-top: 410px !important;
+    }
+    .contact-item {
+        margin: 15px 0px;
+    }
+
+    /* contact page end  */
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* all responsive common css start  */
+    .common-head {
+        text-align: center;
+    }
+
+    .common-head h3 {
+        font-size: 35px;
+    }
+
+    .common-btn {
+        transform: scale(.9);
+        -webkit-transform: scale(.9);
+        -moz-transform: scale(.9);
+        -ms-transform: scale(.9);
+        -o-transform: scale(.9);
+    }
+
+    .common-head2 {
+        text-align: center;
+    }
+
+    /* all responsive common css end  */
+    /* header part start  */
+    .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .navbar-toggler i {
+        font-size: 35px;
+        color: #ffffff;
+        margin: 50px 15px 0px 7px;
+    }
+
+    .navbar button {
+        outline: none;
+        border: none;
+    }
+
+    .navbar-collapse .nav-link {
+        display: inline-block;
+        margin: 10px 0px;
+    }
+
+    .navbar-collapse ul {
+        text-align: center;
+        background: #000;
+    }
+
+    .navbar-collapse {
+        background: #000;
+        padding-bottom: 15px;
+
+    }
+
+    #navbarSupportedContent {
+        margin-top: 0px;
+    }
+
+    .common-btn.menu-btn {
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        max-width: 170px;
+        margin: 20px 0px 0px 10px;
+    }
+
+    /* header part end  */
+
+    /* banner part start  */
+    #banner {
+        padding-top: 170px;
+    }
+
+    .banner-text h1 {
+        font-size: 210px;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .banner-img {
+        top: 0px;
+        margin: 0 auto;
+        text-align: center;
+        opacity: 0.6;
+    }
+
+    .banner-btn a {
+        margin-top: 25px;
+        margin-right: 0px;
+    }
+
+    /* banner part end  */
+    /* extra part start  */
+    .extra-item-part {
+        clip-path: none;
+    }
+
+    .extra-item-part .extra-item {
+        margin-right: -15px;
+    }
+
+    /* extra part end  */
+
+    /* games part start  */
+    .games-item-overlay h3 {
+        padding-bottom: 35px;
+        margin-top: 35%;
+    }
+
+    .games-item .common-btn a {
+        margin-right: 0px;
+    }
+
+    /* games part end */
+
+    /* spin part start  */
+    .spin-img img {
+        width: 75% !important;
+    }
+
+    .spin-img {
+        text-align: center;
+    }
+
+    .spin-text {
+        text-align: center;
+    }
+
+    .spin-text p {
+        font-size: 15px;
+        line-height: 24px;
+        padding: 15px 10px;
+    }
+
+    /* spin part end  */
+
+    /* price part start  */
+
+    .price-item {
+        transform: scale(.9);
+        -webkit-transform: scale(.9);
+        -moz-transform: scale(.9);
+        -ms-transform: scale(.9);
+        -o-transform: scale(.9);
+    }
+
+    .price-item:hover {
+        transform: scale(.95);
+        -webkit-transform: scale(.95);
+        -moz-transform: scale(.95);
+        -ms-transform: scale(.95);
+        -o-transform: scale(.95);
+    }
+
+    .price-item-part {
+        padding-top: 25px;
+    }
+
+    #price {
+        padding-bottom: 30px;
+    }
+
+    /* price part end  */
+
+    /* faq part start  */
+    .faq-part .card h5 .btn-link {
+        font-size: 13px;
+    }
+
+    .faq-part .card .card-body {
+        font-size: 14px;
+    }
+
+    /* faq part end  */
+    /* tour part start  */
+    .tour-part {
+        padding-top: 30px;
+    }
+
+    .countdown-head {
+        text-align: center;
+    }
+
+    .countdown-item-part {
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+
+    .sub-head {
+        margin: 20px 0px;
+    }
+
+    .payment-item {
+        margin-right: 15px;
+    }
+
+    /* tour part end  */
+    /* footer part start  */
+    .footer-about {
+        text-align: center;
+    }
+
+    .footer-info,
+    .footer-link {
+        padding-top: 20px;
+    }
+
+    .link-list {
+        justify-content: space-around;
+    }
+
+    .info-item {
+        justify-content: flex-start;
+        padding-bottom: 0px;
+    }
+
+    /* footer part end  */
+
+
+    /* about page start  */
+    .about-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .payment-item-part {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* about page end */
+
+    /* .price page start  */
+    #price-main .price-item {
+        margin-bottom: 35px;
+    }
+
+    /* .price page end */
+
+
+
+    /* sign up page start  */
+    #signup {
+        background: #0A001B;
+    }
+
+    .signup-head p {
+        display: inline-block;
+    }
+
+    .signup-head p::after {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .login-register {
+        flex-direction: column;
+    }
+
+    .login-register .login {
+        margin-bottom: 15px;
+    }
+
+    /* sign up page end  */
+
+
+    /* contact page start  */
+    .contact-item {
+        margin: 15px 0px;
+    }
+
+    /* contact page end  */
+}
